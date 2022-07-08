@@ -1,6 +1,5 @@
 package com.blocklegend001.craftablebell;
 
-import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -29,9 +28,6 @@ public class CraftableBell
     private void setup(final FMLCommonSetupEvent event)
     {
 
-        LOGGER.info("HELLO FROM PREINIT");
-
-        LOGGER.info("DIRT BLOCK >> {}", Blocks.DIRT.getRegistryName());
     }
 
 }
